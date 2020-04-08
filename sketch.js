@@ -40,5 +40,7 @@ function draw() {
   if (volhist.length > width){
     volhist.splice(0,1);
   }
+
+  
   //ellipse (width/2, height/2, 200, vol * 200);
 }
